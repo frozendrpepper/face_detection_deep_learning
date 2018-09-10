@@ -45,8 +45,13 @@ as individual image represented as array.
 
 ## Useful References
 
-* [Kaggle Competition Description](https://www.kaggle.com/c/dogs-vs-cats)
-* [Excellent Youtube tutorial on Keras](https://www.youtube.com/watch?v=LhEMXbjGV_4&t=378s) - Excellent series of MLP and CNN tutorial in Keras.
-* [Simple CNN structure](https://pythonprogramming.net/tflearn-machine-learning-tutorial/) - Provided simple 28 x 28 CNN structure
-* [Blog on Transfer Learning](https://medium.com/@galen.ballew/transferlearning-b65772083b47) - This blog provides a good overview of XGBoost approach to solve the problem. It also provided a good tip on how the ranking of the dog breed can help improve the accuracy.
-* [Paper on how Xception model was conceived](http://openaccess.thecvf.com/content_cvpr_2017/papers/Chollet_Xception_Deep_Learning_CVPR_2017_paper.pdf) - Paper on Xception
+1) Resources for Object Detection Algorithm
+* [Sentdex Tensorflow API Object Detection Youtube](https://www.youtube.com/watch?v=COlbP62-B-U&t=1s)
+* [Edje Electronics Tensorflow API Object Detection Youtube](https://www.youtube.com/watch?v=Rgpfk6eYxJA) 
+
+2) Resources for Face Recognition Deep Neural Network
+* [Coursera Deeplearning.ai](https://www.coursera.org/specializations/deep-learning)
+* [Facenet](https://github.com/davidsandberg/facenet)
+* [Medium Blog with Good Explanations](https://medium.com/@vinayakvarrier/building-a-real-time-face-recognition-system-using-pre-trained-facenet-model-f1a277a06947)
+* [Open Face](https://cmusatyalab.github.io/openface/)
+* [Another Good Github Repo](https://github.com/ageitgey/face_recognition#face-recognition)
