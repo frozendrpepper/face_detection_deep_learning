@@ -21,6 +21,7 @@ function prototype of face recognition model.
 1) Face Detection using Object Detection
  * I've used Tensorflow API's built in inception model. This model had better accuracy than the mobilenet model which is the lightest
    model that is provided.
+   [Tensorflow API Built In Model Zoo](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md)
    
 2) Face Recognition Deep Nueral Network
  * The basic idea of how face recognition NN works can be seen as follows:
