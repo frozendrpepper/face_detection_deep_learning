@@ -30,6 +30,9 @@ function prototype of face recognition model.
  * The idea is to utilize a pre-trained model that has been specifically trained to recognize different faces. The output of
  the DL architecture a 128 dimension vector that represents an encoding of a face image. Then distance metric is used to compare
  different faces and if the distance falls within a certain criteria, we have matching faces.
+ * For this project, the source code provided from Coursera's Deeplearning.ai is used. However, I took out all unnecessary parts 
+ and heavily modified the code so as to not give away solution (The course does not want people who have taken the course to 
+ release some of the codes since they are solutions to the exercise problems and can cause honor code issue)
 
 
 ## Result
