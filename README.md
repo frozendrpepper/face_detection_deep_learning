@@ -3,7 +3,7 @@
 
 # Face Recognition Using Tensorflow Object Detection API and Coursera Deeplearning.ai Face Recognition Neural Network
 
-The goal is to construct a pipeline of object detection algorithm for face detection and deep neural network for full
+The goal is to construct a pipeline of object detection algorithm for face detection and deep neural network for fully
 function prototype of face recognition model.
 
 
