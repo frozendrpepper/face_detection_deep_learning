@@ -27,9 +27,7 @@ function prototype of face recognition model.
  * The basic idea of how face recognition NN works can be seen as follows:
  ![alt text](https://i.ytimg.com/vi/6jfw8MuKwpI/maxresdefault.jpg)
  (Source: Coursera Deeplearning.ai lecture on Siamese Network)
- * The idea is to utilize a pre-trained model that has been specifically trained to recognize different faces. The output of
- the DL architecture a 128 dimension vector that represents an encoding of a face image. Then distance metric is used to compare
- different faces and if the distance falls within a certain criteria, we have matching faces.
+ * The idea is to utilize a pre-trained deep learning model that has been specifically trained to recognize different faces. The output of the deep learning architecture a 128 dimensional vector that represents an encoding of a face image. A distance metric is used to compare different faces and if the distance falls within a certain range, we have matching faces.
  * For this project, the source code provided from Coursera's Deeplearning.ai is used. However, I took out all unnecessary parts 
  and heavily modified the code so as to not give away solution (The course does not want people who have taken the course to 
  release some of the codes since they are solutions to the exercise problems and can cause honor code issue)
@@ -46,6 +44,8 @@ I have implemented this on my personal hardware (7th Gen core i7 and GTX 1060 6G
 the greatest but the model can run at an acceptable frame rate and detect faces (and recognize my own face). OpenCV has built in
 methods that can automatcally detect any connected camera to your hardware, input a live stream video and return each frame
 as individual image represented as array. 
+
+Additionally, OpenCV has its own face recognition module built into it that uses slightly different approach. This could be a potential future project to compare the performance of different face recognition approaches.
 
 ## Useful References
 
